@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Vardeep Singh Sanhu
     - name: Date of Birth
-      value: 14th March 1879
+      value: 14th April 1996
     - name: Languages
-      value: English, German
+      value: English, German, Punjabi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Masters 
+      institution: University of Bonn, Bonn, Germany
+      year: 2022
       description:
         - Description 1.
         - Description 2.
