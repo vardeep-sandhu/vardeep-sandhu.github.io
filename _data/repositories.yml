@@ -2,10 +2,11 @@ github_users:
   - vardeep-sandhu
 
 github_repos:
-  - vardeep-sandhu/BinaryClassifier
-  - vardeep-sandhu/DeepLearningForVisualRecognition
-  - vardeep-sandhu/RealTimeFaceDetectionAndTracking
   - vardeep-sandhu/VideoFramePrediction
+  - vardeep-sandhu/DetectionWithTracking
+  - vardeep-sandhu/BinaryClassifier
+  # - vardeep-sandhu/DeepLearningForVisualRecognition
+  - vardeep-sandhu/RealTimeFaceDetectionAndTracking
   - vardeep-sandhu/KFSensorFusion
  
   # - FortAwesome/Font-Awesome
