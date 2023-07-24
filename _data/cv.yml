@@ -7,6 +7,58 @@
       value: 14th April 1996
     - name: Languages
       value: English, German, Punjabi
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Perception Engineer
+      institution: Motor AI GmbH, Berlin
+      year: Jan 2023 - Present
+      description:
+        - Camera-Lidar-Radar Fusion Model
+          - Low-Level Latent Fusion Model for Multi-view camera, LiDARs, and RADARs to solve 3D Detection and Lane Segmentation.
+          - Implemented TensorRT plugins for unsupported operation. CUDA accelarations for parallelizable operations. Used C++, CUDA, TensorRT, PyTorch.
+        - Monocular 3D Detection
+          - Developed a 3D Object Detection model on monocular images. Developed TensorRT engine and inference in C++, CUDA.
+          - Deployed on the test vehicle achieving 3x inference speedup after quantization.
+        - Lidar based 3D Detection
+          - Deployed LiDAR-only model for 3D detection. Developed TensorRT engine resulting in 24 FPS inference speed on the test vehicle.
+        - Face and Number Plate Detection and Blurring Developyed and deployed the model at 100FPS on test vehicle.
+
+    - title: Master Thesis Student
+      institution: CARIAD SE, Mönsheim
+      year: May 2022 - Nov 2022
+      description:
+        - RADAR-based Moving Object Segmentation
+        - Developed a novel temporal transformer network.
+        - Utilized in-house Porsche RADAR Dataset along with RadarScenes dataset.
+        - Achieved state-of-the-art results with 12% improvement over baseline.
+        - Published research paper in ICRA under the guidance of Prof. Dr. Cyrill Stachniss and Uni-Bonn IPB Lab.
+        - Used Python libraries like PyTorch, Numpy, Pandas, and Open3D.
+
+    - title: Computer Vision Intern
+      institution: Robidia GmbH, Cologne
+      year: Dec 2022 - Apr 2022
+      description:
+        - Developed an identity tracking and motion prediction suit for the camera slider.
+        - Implemented Kalman Filter-based motion prediction of the person-of-interest.
+        - Deployed the Deep Learning model on NVIDIA edge device at 60 FPS.
+
+    - title: Deep Learning Intern
+      institution: SCREWERK GmbH, Cologne
+      year: Jul 2021 - Nov 2021
+      description:
+        - Developed a deep network to classify camera images based on the density of screws.
+        - Established WebSocket connection of frontend UI with the Deep Learning model from scratch.
+        - Resulted in full automation of the machine.
+
+    - title: Graduate Student Assistant, HiWi
+      institution: Stachniss Lab, University of Bonn
+      year: Aug 2020 -- Jun 2021
+      description:
+        - Worked on sensor synchronization and calibration of the data collection vehicle.
+        - Researched classical 3D CV approaches to removal of dynamic objects from LiDAR scan.
+
 - title: Education
   type: time_table
   contents:
@@ -25,59 +77,22 @@
         - I also took elective courses from the Computer Science Department like Computer Architecture and Fundamentals in Computer Sciences.
         - Grade - 1.7
 
-- title: Experience
-  type: time_table
+- title: Skills
+  type: nested_list
   contents:
-    - title: Perception Engineer
-      institution: MotorAI GmbH, Berlin
-      year: 2023 -- Present
-      description:
-        - Performed synchronization and extrinsic calibration of Radars with other sensors.
-        - Utilizing Radars for velocity estimation in the perception pipeline.
-        - Developed 3D object detector and tracking pipeline with low-level fused Radar and Lidar points.
-        - Developed TensorRT engine, Post-processor, and Pre-processor in Cuda for in-house 3D Object Detector model.
-        - Improvement in the performance and inference speed of 3D Object Detector  pipeline.
+    - title: Development.
+      items:
+        - C++.
+        - CUDA.
+        - OpenCV.
+        - LibTorch.
 
-    - title: Master Thesis Student
-      institution: CARIAD SE, Mönsheim
-      year: May 2022 -- Nov 2022
-      description:
-        - Solved the task of "RADAR-based Moving Object Segmentation" in outdoor scenarios.
-        - Developed a novel transformer network in the temporal domain on the RadarScenes dataset to solve this task.
-        - Achieved state-of-the-art results with 12% improvement over baseline.
-
-    - title: Computer Vision Intern
-      institution: Robidia GmbH, Cologne
-      year: Jan 2022 -- Mar 2022
-      description: 
-        - Developed an identity tracking and motion prediction suit for the camera slider.
-        - Implemented Kalman Filter-based motion prediction of the person-of-interest.
-        - The entire system worked at 60 fps which was critical for the smooth operation of the camera.
-        - Resulted in four new enterprise customers.
-
-    - title: Deep Learning Intern
-      institution: SCREWERK GmbH, Cologne
-      year: Jun 2021 -- Dec 2021
-      description:
-
-    - title: Graduate Student Assistant, HiWi
-      institution: Stachniss Lab, University of Bonn
-      year: Aug 2020 -- Mar 2021
-
-
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Deep.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
+    - title: Deployment.
+      items:
+        - TensorRT Quantization and Plugins.
+        - NVIDIA Orin  Driveworks, DRIVE OS.
+        - Docker.
+        - CI/CD Pipelines.
 # - title: Other Interests
 #   type: list
 #   contents:
